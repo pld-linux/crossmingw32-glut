@@ -3,7 +3,7 @@ Summary:	OpenGL Utility Toolkit (GLUT) - Mingw32 cross version
 Summary(pl):	OpenGL Utility Toolkit (GLUT) - wersja skro¶na dla Mingw32
 Name:		crossmingw32-%{realname}
 Version:	3.7
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries
 Source0:	http://www.opengl.org/resources/libraries/glut/%{realname}-%{version}.tar.gz
