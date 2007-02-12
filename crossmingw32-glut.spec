@@ -1,6 +1,6 @@
 %define		realname	glut
 Summary:	OpenGL Utility Toolkit (GLUT) - Mingw32 cross version
-Summary(pl):	OpenGL Utility Toolkit (GLUT) - wersja skro∂na dla Mingw32
+Summary(pl.UTF-8):   OpenGL Utility Toolkit (GLUT) - wersja skro≈õna dla Mingw32
 Name:		crossmingw32-%{realname}
 Version:	3.7
 Release:	3
@@ -33,18 +33,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A 3-D graphics library which uses the OpenGL API.
 
-%description -l pl
-Biblioteka graficzna 3D uøywaj±ca API z OpenGL.
+%description -l pl.UTF-8
+Biblioteka graficzna 3D u≈ºywajƒÖca API z OpenGL.
 
 %package dll
 Summary:	%{realname} - DLL library for Windows
-Summary(pl):	%{realname} - biblioteka DLL dla Windows
+Summary(pl.UTF-8):   %{realname} - biblioteka DLL dla Windows
 Group:		Applications/Emulators
 
 %description dll
 %{realname} - DLL library for Windows.
 
-%description dll -l pl
+%description dll -l pl.UTF-8
 %{realname} - biblioteka DLL dla Windows.
 
 %prep
