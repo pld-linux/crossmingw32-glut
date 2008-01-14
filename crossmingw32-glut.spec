@@ -5,7 +5,7 @@ Name:		crossmingw32-%{realname}
 Version:	3.7
 Release:	3
 License:	GPL
-Group:		Libraries
+Group:		Development/Libraries
 Source0:	http://www.opengl.org/resources/libraries/glut/%{realname}-%{version}.tar.gz
 # Source0-md5:	dc932666e2a1c8a0b148a4c32d111ef3
 URL:		http://www.opengl.org/resources/libraries/glut.html
@@ -20,8 +20,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		target		i386-mingw32
 %define		target_platform	i386-pc-mingw32
 %define		arch		%{_prefix}/%{target}
-%define		gccarch		%{_prefix}/lib/gcc-lib/%{target}
-%define		gcclib		%{_prefix}/lib/gcc-lib/%{target}/%{version}
 
 %define		__cc		%{target}-gcc
 %define		__cxx		%{target}-g++
